@@ -17,6 +17,7 @@ register("command", ...args => {
             (boolean) => {
                 if (boolean) {
                     ChatLib.chat("&aSuccessfully updated to latest dev version!")
+                    com.chattriggers.ctjs.Reference.loadCT()
                 } else {
                     ChatLib.chat("&cFailed to update to latest dev version!")
                 }
