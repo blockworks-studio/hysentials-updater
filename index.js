@@ -21,8 +21,13 @@ register("command", ...args => {
                 } else {
                     ChatLib.chat("&cFailed to update to latest dev version!")
                 }
-            })
-        
-
+            }
+        )
+        return
     }
+    if (command == "stable") {
+        ChatLib.chat("&cThis command is not yet implemented!")
+        return
+    }
+    ChatLib.chat("&cMissing Arguments! /update <dev/stable>")
 }).setName("update")
