@@ -1,0 +1,8 @@
+{
+  "name": "Hysentials Updater",
+  "creator": "Sin_ender",
+  "description": "Updates Hysentials to the latest version.",
+  "entry": "index.js",
+  "version": "1.0.0",
+  "requires": ["FileUtilities"]
+}
